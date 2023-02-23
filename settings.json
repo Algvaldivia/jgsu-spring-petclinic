@@ -1,0 +1,18 @@
+{
+    "jenkins-runner.jobs": {
+        "vscode": {
+            "isDefault": true,
+            "runWith": "pipeline-test",
+            "name": "vscode",
+        }
+    },
+    "jenkins-runner.hostConfigs": {
+
+        "pipeline-test": {
+            "url": "http://172.1.203.7:8080/",
+            "user": "agomez",
+            "password": "Agv*750828",
+            "useCrumbIssuer": true
+        }
+    }
+}
